@@ -5,7 +5,10 @@ This folder contains two ESMFold workflows:
 1. CLI folding with `fold_esmfold.py`.
 2. Notebook batch folding with `folding_notebook.ipynb`.
 
-Both workflows use `esmfold-full:cu128`.
+Both workflows use:
+
+- Local tag: `esmfold-full:cu128`
+- Docker Hub: https://hub.docker.com/r/951753jalil/esmfold-full
 
 ## CLI Workflow
 

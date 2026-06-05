@@ -43,6 +43,11 @@ Validated output for the current sequence:
 
 ## Run
 
+Docker image:
+
+- Local tag: `esm2_esmif:cu130`
+- Docker Hub: https://hub.docker.com/r/951753jalil/esm2-esmif
+
 From this folder:
 
 ```powershell

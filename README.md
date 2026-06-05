@@ -13,10 +13,10 @@ The workflows are intentionally notebook-centered except for the ESMFold CLI hel
 
 Use Docker Desktop with NVIDIA GPU support enabled.
 
-| Workflow | Local image tag used here | Docker Hub source |
+| Workflow | Local image tag used here | Docker Hub URL |
 | --- | --- | --- |
-| ESM2 embedding, ESM2 mutagenesis, ESM-IF | `esm2_esmif:cu130` | `951753jalil/esm2-esmif` |
-| ESMFold CLI and notebook | `esmfold-full:cu128` | `951753jalil/esmfold-full` |
+| ESM2 embedding, ESM2 mutagenesis, ESM-IF | `esm2_esmif:cu130` | https://hub.docker.com/r/951753jalil/esm2-esmif |
+| ESMFold CLI and notebook | `esmfold-full:cu128` | https://hub.docker.com/r/951753jalil/esmfold-full |
 
 If the local tags are missing, pull and tag the images:
 
